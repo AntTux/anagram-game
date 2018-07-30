@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+
+      <title>Anagram Game</title>
+    </head>
+
+
+    <body>
+
+    <!-- navbar and timer and other buttons (like pause, shuffle, reset)!-->
+    <div class="fixed-top">
+
+    <nav class="navbar navbar-dark bg-white justify-content-between">
+      <a class="nav-link" href="levels.html" id="levelsMenu">LEVELS</a>
+      <a class="nav-link" href="#" id="reset">RESET</a>
+    </nav>
+
+
+
+    <!-- Anagram word is displayed here!-->
+    <div class="container bg-white">
+      <div class="row align-items-center">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1 id="anagram">TEST</h1>
+        </div>
+        <div class="col-md-2" id="anagramButtons">
+          <button type="button" class="btn btn-light" id="resetWord">
+            <i class="fas fa-redo"></i>
+          </button>
+          <button type="button" class="btn btn-light" id="shuffleWord">
+            <i class="fa fa-random"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- input field for words!-->
+    <div class="container bg-white border-bottom">
+      <div class="row align-items-center">
+        <div class="col-md-10 offset-md-1">
+          <div class="input-group">
+            <input class="form-control form-control-lg" type="text" placeholder="Enter a word.." id="inputField" aria-describedby="basic-addon2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+    <!-- list of words you've gotten so far!-->
+    <div class="container">
+      <div class="row align-items-left">
+        <div class="col-md">
+          <ul class="list-group" id="words">
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/gameWindow.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
+</html>

@@ -1,0 +1,67 @@
+body {
+  padding-top: 330px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.inputField {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#anagramButtons {
+  margin-top: 50px;
+  margin-bottom:20px;
+  display: inline;
+}
+
+.list-group-item {
+  margin: 10px;
+}
+
+.form-control {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#inputField {
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  font-size: 25px;
+  color: #a4a4a4;
+}
+
+
+.levelButton {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.word-row {
+  display: inline;
+  background-color: black;
+}
+
+.word-solution {
+  background-color: blue;
+}
+
+.levels{
+  margin-top: 70px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+#holder {
+  left: 0;
+  position: fixed;
+  top: 0;
+}
